@@ -46,12 +46,12 @@
     <div id="loadingMessage">🎥 Unable to access video stream (please make sure you have a webcam enabled)</div>
     <canvas id="canvas" hidden></canvas>
     <div id="output" hidden>
-    <div id="outputMessage">No QR code detected.</div>
-    <div hidden><b>Data:</b> <span id="outputData"></span></div>
+      <div id="outputMessage">No QR code detected.</div>
+      <div hidden><b>Data:</b> <span id="outputData"></span></div>
     </div>
     <audio id="beepsound" controls>
-    <source src="sound/scanner-beeps-barcode.mp3" type="audio/mpeg">
-    Your browser does not support the audio tag.
+      <source src="sound/scanner-beeps-barcode.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
     </audio>
     <img id="outputqrcode">
     <canvas id="canvas2" ></canvas>
